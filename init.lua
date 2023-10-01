@@ -6,3 +6,4 @@ vim.g.localleader = "\\"
 
 require('vars')
 require('opts')
+require('keys')
