@@ -3,3 +3,5 @@
 -- is called; otherwise, it will default to "\"
 vim.g.mapleader = ","
 vim.g.localleader = "\\"
+
+require('vars')
