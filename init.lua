@@ -7,6 +7,3 @@ vim.g.localleader = "\\"
 require('vars')
 require('opts')
 require('keys')
-require('plug')
-
-require('nvim-tree').setup{}
