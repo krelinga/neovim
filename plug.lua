@@ -23,4 +23,11 @@ require("lazy").setup({
 		  require("nvim-tree").setup {}
 		end,
 	},
+    {
+        'Mofiqul/dracula.nvim',
+        config = function()
+            require('dracula').setup({})
+            vim.cmd [[colorscheme dracula]]
+        end,
+    },
 })
